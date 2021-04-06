@@ -25,7 +25,7 @@ public class DBconnection {
                 
                 Class.forName("org.sqlite.JDBC");
                 
-                connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\94771\\Documents\\NetBeansProjects\\Timetable-ITPM\\src\\database\\test.db");
+                connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\THANUSHKA\\OneDrive\\Documents\\NetBeansProjects\\Timetable-ITPM\\src\\database\\test.db");
                 System.out.println("connection success");
                 return connection;
             }
